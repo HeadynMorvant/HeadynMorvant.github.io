@@ -47,6 +47,8 @@ $(function () {
     createPlatform(200, 200, 80, 10, "black");
     createBadPlatform(1100, 500, 80, 10, "red");
     createPlatform(800, 250, 80, 10, "hotpink");
+    createPlatform(600, 200, 80, 10, "hotpink");
+
 
 
     // TODO 3 - Create Collectables
@@ -56,9 +58,9 @@ $(function () {
     createCollectable("grace", 200, 100, 0, 1, 1100, 1300, 2)
 
     // TODO 4 - Create Cannons
-    createCannon("right", 500, 2000);
+    createCannon("right", 500, 2500);
     createCannon("top", 800, 3500);
-    createCannon("left", 140, 2500);
+    createCannon("left", 140, 3000);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
