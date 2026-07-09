@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: pink;
+  background:linear-gradient(to bottom, #C11C84,#FFA6C9, #FC8EAC, #82C8E5);
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -43,6 +43,7 @@ h2 {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #e00fac;
+  text-shadow: 2px 2px 5px #0fafe081;
 }
 
 .content > p {
