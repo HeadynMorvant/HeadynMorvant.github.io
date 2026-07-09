@@ -36,7 +36,7 @@ $(function () {
     //toggleGrid();
 
     // TODO 2 - Create Platforms
-    createPlatform(300, 630, 90, 10, "hotpink");
+    createPlatform(300, 630, 90, 10, "black");
     createPlatform(500, 500, 90, 10, "hotpink");
     createPlatform(400, 300, 90, 10, "hotpink");
     createPlatform(600, 400, 80, 10, "black");
@@ -46,6 +46,7 @@ $(function () {
     createPlatform(1200, 650, 90, 10, "hotpink");
     createPlatform(200, 200, 80, 10, "black");
     createBadPlatform(1100, 500, 80, 10, "red");
+    createPlatform(800, 250, 80, 10, "hotpink");
 
 
     // TODO 3 - Create Collectables
